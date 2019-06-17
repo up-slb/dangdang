@@ -25,7 +25,6 @@ ul{
 	width: 100%;
 	height: 0.7332rem;
 	display: flex;
-	
 }
 .logo {
 	width: 0.866599rem;
@@ -70,16 +69,13 @@ ul{
 	background-image: url(../img/icon.png);
 	background-size: 0.866599rem 0.7332rem;
 }
-
 .middle{
 	widows: 100%;
 	height: 9.8568rem;
-	/*overflow: hidden;*/
 }
-
 .itiem{
 	width: 100%;
-	height: 125.0986rem;
+	height: 109.930397rem;
 }
 .hongbao{
 	position: fixed;
@@ -97,7 +93,6 @@ ul{
     height: 50px !important;
     z-index: 10000;
 }
-
 /*轮播图*/
 .banner{
 	width: 100%;
@@ -134,7 +129,6 @@ ul{
 	73.6%,79.1%{  left: -38.4rem}
 	84.6%,90.1%{  left: -44.8rem}
 	95.6%,100%{  left: -51.2rem}
-
 }
 .advertisement{
 	width: 100%;
@@ -153,7 +147,6 @@ ul{
 	display: flex;
 	flex-wrap: wrap;
 }
-
 .data a img{
 	width: 1.28rem;
 	height: 1.28rem;
@@ -169,7 +162,6 @@ ul{
 .brand-street{
 	width: 100%;
 	height: 3.2656rem;
-	
 }
 .street-title{
 	width: 100%;
@@ -202,7 +194,7 @@ ul{
 .street-itiem ul li dl{
 	width: 100%;
 	height: 100%;
-		display: flex;
+	display: flex;
 	flex-wrap: wrap;
 }
 .street-itiem ul li dl dd{
@@ -228,6 +220,10 @@ ul{
 	}
 }
 /*今日秒杀*/
+.today-kill{
+	width: 100%;
+	height: 4.5596rem;
+}
 .today-title{
 	width: 100%;
 	height: 0.7006rem;
@@ -274,7 +270,6 @@ ul{
 	overflow: hidden;
 }
 .today-itiem ul{
-	/*width: 19.6558rem;*/
 	height: 5.051879rem;
 	display: flex;
 	flex-wrap: nowrap;
@@ -299,7 +294,6 @@ ul{
 	color: #323232;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	/*white-space: nowrap;*/
 }
 .price div:nth-child(1){
 	width: 1.6rem;
@@ -310,7 +304,6 @@ ul{
 	text-line-through: ;
 	color: #BABABA;
 }
-
 .picture{
 	width: 100%;
 	height: 1.6706rem;
@@ -452,8 +445,6 @@ ul{
 	height: 7.685rem;
 	display: flex;
 	flex-wrap: wrap;
-	/*justify-content: space-between;*/
-	/*align-content: space-between;*/
 	box-sizing: border-box;
 }
 .cloth-content ul li{
@@ -474,7 +465,6 @@ ul{
 .cloth-word-up{
 	width: 1.6568rem;
 	height: 0.28rem;
-	
 	margin: 0.26rem auto 0rem;
 }
 .cloth-word-down{
@@ -636,9 +626,6 @@ ul{
 }
 .super-b div>span:nth-child(1){
 	display: block;
-}
-.super-b div>span:nth-child(2){
-	/*color: #959BF6;*/
 }
 .super-b>li>div:nth-child(1){
 	width: 1.6rem;
@@ -812,9 +799,6 @@ ul{
 }
 .baby-b div>span:nth-child(1){
 	display: block;
-}
-.baby-b div>span:nth-child(2){
-	/*color: #959BF6;*/
 }
 .baby-b>li>div:nth-child(1){
 	width: 1.6rem;
@@ -1044,19 +1028,6 @@ ul{
 .list-title{
 	font-size: 0.22rem;
 }
-.title-box:after{
-	content: '';
-    position: absolute;
-    top: 0.2rem;
-    left: 0;
-    font-size: 0;
-    line-height: 0;
-    background-color: #d9dfe6;
-    height: 1px;
-    width: 100%;
-    z-index: 1;
-    margin-top: 0.007333rem;
-}
 .list-titem{
 	width: 100%;
 	height: 44.88rem;
@@ -1118,10 +1089,65 @@ ul{
 	display: inline-block;
 	margin: 0rem 0.14rem 0rem 0.04rem;
 }
-
-
-
-
+/*结束*/
+.end{
+	width: 100%;
+	height: 3.232rem;
+}
+.fun{
+	width: 100%;
+	height: 0.5952rem;
+	color: #585A5D;
+	text-align: center;
+	font-size: 0.2368rem;
+	line-height: 0.5952rem;
+	background-color: #EFF4FA;
+}
+.sao{
+	width: 100%;
+	height: 1.1968rem;
+	display: flex;
+}
+.sao img{
+	width: 50%;
+	height: 100%;
+}
+.denglu{
+	width: 100%;
+	height: 0.8rem;
+	background-color: white;
+	line-height: 0.8rem;
+}
+.denglu a{
+	font-size: 0.2752rem;
+	display: inline-block;
+	height: 100%;
+	color:#4d525d;
+	margin-left: 0.4rem;
+}
+.denglu a:nth-child(3){
+	margin-left: 2.96rem;
+}
+.help{
+	width: 6.4rem;
+	height: 0.64rem;
+	font-size: 0.2752rem;
+	color: #3E3845;
+	text-align: center;
+	line-height: 0.5952rem;
+	background-color: white;
+	border-top: 0.02rem solid #E5E5E5;
+}
+.help span:nth-child(2){
+	color: #FE5A71;
+}
+.foot{
+	width: 100%;
+	height: 1.5808rem;
+	text-align: center;
+	color: #9F9F9F;
+	background-color: white;
+}
 /*底部导航*/
 .end-nav{
 	width: 100%;
@@ -1130,6 +1156,7 @@ ul{
 	z-index: 99;
 	padding: 0.1rem 0rem;
 	border-top: 1px solid #e3e3e3;
+	background-color: #FCFCFB;
 }
 .end-nav a{
 	display: inline-block;
